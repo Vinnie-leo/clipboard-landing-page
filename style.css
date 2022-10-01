@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Bai Jamjuree;    
+}
+
+p{
+    color:rgba(0, 0, 0, 0.607);
+    font-size:1.1rem;
+    line-height:1.75rem;
+}
+
+h2{
+    font-size:2rem;
+}
+
+h3{
+    font-size:1.5rem;
+}
+
+header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+header .bg{
+    width:100%;
+    height:22rem;
+}
+
+header .logo{
+    position:absolute;
+    top:11rem;
+    width:8rem;
+    height:auto;   
+}
+
+.download{
+    gap:1.5rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.download h1{
+    font-size:2.5rem;
+}
+
+.download p{
+    font-size:1.1rem;
+    color:rgba(0, 0, 0, 0.607);
+    text-align:center;
+    line-height:1.75rem;
+}
+
+button{
+    margin:.5rem;
+    font-size:1.2rem;
+    border-radius:5rem;;
+    padding:.5rem 2rem;
+    border-style:none;
+    box-shadow:1px 1px 5px 1px rgba(0, 0, 0, 0.286);
+}
+
+.buttons .ios{
+    background:hsl(171, 66%, 44%);   
+}
+
+.buttons .mac{
+    background-color:hsl(233, 100%, 69%);   
+}
+
+.hero-heading{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:1rem;
+    margin-top:6rem;
+}
+
+.hero-heading p{
+    margin:0rem 26rem;
+    line-height:1.75rem;
+    font-size:1.1rem;
+    text-align:center;
+    color:rgba(0, 0, 0, 0.607);
+}
+
+.hero{
+    display:flex;
+    margin-top:5rem;
+}
+
+.hero-text{
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    gap:4rem;
+    padding:5rem 15rem 5rem 5rem;
+}
+
+.hero-text h2{
+    padding-bottom:1rem;
+}
+
+.hero-text p{
+    color:rgba(0, 0, 0, 0.607);
+    font-size:1.1rem;
+    line-height:1.75rem;
+}
+
+.clipboard{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:6rem;
+    gap:1.5rem;
+}
+
+.clipboard p{
+    font-size:1.1rem;
+    color:rgba(0, 0, 0, 0.607);
+    margin:0px 27rem;
+    text-align:center;
+}
+
+.clipboard img{
+    margin-top:2.5rem;
+    height:36rem;
+}
+
+.workflow-heading{
+    margin-top:rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:1rem;
+}
+
+.workflow-items{
+    display:flex;
+    gap:3rem;
+    margin:4rem 10rem;
+}
+
+.workflow-items img{
+    width:3rem;
+}
+
+.workflow-items p{
+    text-align:center;
+}
+
+.blacklists, .snippets, .preview{
+    display:flex;
+    flex:1;
+    flex-direction:column;
+    justify-content:center;;
+    align-items:center;
+    gap:1rem;
+}
+
+.logos{
+    display:flex;
+    gap:7rem;
+    justify-content:center;
+    padding:3rem 7rem;
+}
+
+.logos img{
+    width:9rem;
+    height:auto;
+}
+
+.download-clipboard{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:6rem;
+    gap:1rem;
+}
+
+.download-clipboard p{
+    margin:0rem 25rem;
+    text-align:center;
+}
+
+.download-clipboard .buttons{
+    margin-top:.75rem;
+}
+
+footer{
+    margin-top:6rem;
+    background:rgba(237, 236, 236, 0.542);
+    display:flex;
+    flex:1;
+    gap:9rem;
+    align-items:center;
+    padding:1rem 0rem;
+}
+
+.footer-logo{
+    margin-left:11rem;
+}
+
+.footer-logo img{
+    width:4rem;
+    height:auto;    
+}
+
+.footer-site-links ul{
+    display:flex;
+    justify-content:flex-start;
+    gap:1rem;
+    list-style:none;
+}
+
+.footer-site-links li{
+    display:flex;
+    margin-right:3rem;    
+}
+
+.footer-media-links{
+    display:flex;
+    gap:1rem;
+    margin-left:9rem;
+}
