@@ -68,9 +68,20 @@ button{
 .buttons .ios{
     background:hsl(171, 66%, 44%);   
 }
+.buttons .ios:hover{
+    color:white;
+    background:hsl(171, 65%, 46%);
+    cursor:pointer;
+}
 
 .buttons .mac{
     background-color:hsl(233, 100%, 69%);   
+}
+
+.buttons .mac:hover{
+    color:white;
+    background:hsl(233, 97%, 74%);
+    cursor:pointer;
 }
 
 .hero-heading{
